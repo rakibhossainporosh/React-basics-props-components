@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import UserCard from './components/UserCard'
 import ProductList from './components/ProductList'
 import Counter from './components/Counter'
+import NameInput from './components/NameInput'
 
 const App = () => {
   const product=[
@@ -19,6 +20,7 @@ const App = () => {
     <UserCard name="Porosh" age="25" profession="Student" location="Dhaka"/>
     <ProductList items={product}/>
     <Counter/>
+    <NameInput/>
     <Footer/>
     </>
   )
