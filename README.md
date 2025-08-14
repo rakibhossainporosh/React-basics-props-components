@@ -18,9 +18,23 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/rakibhossainporosh/React-basics-props-components.git
+2. Navigate to the project folder
+   cd react-basics-props-components
+3. Install dependencies
+   npm install
+4. Run the development server
+   npm run dev
+5. Open in browser
+   Go to the URL shown in the terminal (usually http://localhost:5173)
 
    
 ## 🏷 Technologies Used
 - React
 - JavaScript (ES6+)
 - Tailwind CSS
+
+
+## 👤 Author
+- Rakib Hossain Porosh
+- 📧 Email: rakibhossainporosh@gmail.com
+- 🔗 GitHub: https://github.com/rakibhossainporosh
