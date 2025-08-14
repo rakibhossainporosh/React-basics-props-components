@@ -5,7 +5,7 @@ const ProductList = ({items}) => {
     <>
     {
         items.map((product)=>(
-           <div key={product.id} className='border p-4 my-1 mx-3'>
+           <div key={product.id} className='border p-4 my-1 mx-3 rounded'>
                 {product.productName}-
                 {product.price}
            </div>

@@ -4,6 +4,7 @@ import MainContent from './components/MainContent'
 import Footer from './components/Footer'
 import UserCard from './components/UserCard'
 import ProductList from './components/ProductList'
+import Counter from './components/Counter'
 
 const App = () => {
   const product=[
@@ -17,6 +18,7 @@ const App = () => {
     <MainContent/>
     <UserCard name="Porosh" age="25" profession="Student" location="Dhaka"/>
     <ProductList items={product}/>
+    <Counter/>
     <Footer/>
     </>
   )
