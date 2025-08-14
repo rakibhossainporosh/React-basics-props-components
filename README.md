@@ -1,13 +1,26 @@
-# React + Vite
+# React Basics - Components & Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 What I Learned
+- React environment setup with Vite
+- JSX syntax & rules
+- Creating reusable components
+- Passing data using props
+- Rendering lists using the `map()` function
 
-Currently, two official plugins are available:
+## 🧩 Components in this Project
+1. **Header** – Dynamic title from props
+2. **MainContent** – Text content from props
+3. **Footer** – Year from props
+4. **UserCard** – Shows user info (name, age, location) via props
+5. **ProductList** – Displays a product list from an array using `map()`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rakibhossainporosh/React-basics-props-components.git
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-basics-props-components
+   
+## 🏷 Technologies Used
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
