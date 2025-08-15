@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const LoginStatus = () => {
   const [userName, setuserName] = useState("Porosh");
   const [isLogin, setIsLogin] = useState(false);
-  console.log(userName);
 
   return (
     <>
