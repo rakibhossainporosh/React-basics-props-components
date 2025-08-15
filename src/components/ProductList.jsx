@@ -8,9 +8,7 @@ const ProductList = ({items}) => {
            <div key={product.id} className='border p-4 my-1 mx-3 rounded'>
                 {product.productName}-
                 {product.price}
-           </div>
-            
-            
+           </div> 
         ))  
     }
     </>

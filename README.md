@@ -6,6 +6,8 @@
 - Creating reusable components
 - Passing data using props
 - Rendering lists using the `map()` function
+- LoginStatus Component: Conditional rendering with login/logout toggle and personalized username display.
+
 
 ## 🧩 Components in this Project
 1. **Header** – Dynamic title from props

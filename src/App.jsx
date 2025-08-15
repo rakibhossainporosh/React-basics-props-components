@@ -6,6 +6,7 @@ import UserCard from './components/UserCard'
 import ProductList from './components/ProductList'
 import Counter from './components/Counter'
 import NameInput from './components/NameInput'
+import LoginStatus from './components/LoginStatus'
 
 const App = () => {
   const product=[
@@ -21,6 +22,7 @@ const App = () => {
     <ProductList items={product}/>
     <Counter/>
     <NameInput/>
+    <LoginStatus/>
     <Footer/>
     </>
   )
